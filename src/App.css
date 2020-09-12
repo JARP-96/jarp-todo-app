@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Lexend Giga";
+  src: url("./assets/fonts/LexendGiga-Regular.ttf");
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("./assets/fonts/LexendDeca-Regular.ttf");
+}
+@font-face {
+  font-family: "Font Awesome Solid";
+  src: url("./assets/fonts/FAS.otf");
+}
+@font-face {
+  font-family: "Font Awesome Regular";
+  src: url("./assets/fonts/FAR.otf");
+}
+@font-face {
+  font-family: "Font Awesome Brand";
+  src: url("./assets/fonts/FAB.otf");
+}
+
+body {
+  background-color: #e3e3e3 !important;
+  font-family: "Lexend Deca" !important;
+}
+#main {
+  min-height: 100vh;
+  padding: 2em 0;
+}
+
+h2 {
+  margin: 0.5em !important;
+  font-family: "Lexend Giga";
+}
+.abs-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas-icon {
+  font-family: "Font Awesome Solid";
+}
+.fa-icon {
+  font-family: "Font Awesome";
+}
+.fab-icon {
+  font-family: "Font Awesome Brand";
+}
+
+.todo {
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.todo__submit {
+  background-color: #f5f5f5;
+  padding: 1em;
+}
+.todo__submit__item {
+  padding: 0.5em;
+}
+.todo__submit button {
+  width: 100%;
+}
+
+.todo__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 0.5em 1em;
+  margin: 1em;
+  border-radius: 6px;
+  word-wrap: break-word;
+}
+@media screen and (max-width: 768px) {
+  .todo__item {
+    flex-direction: column;
+  }
+}
+
+.todo__item__info {
+  display: flex;
+  align-items: center;
+}
+
+.todo__item__status {
+  background-color: gray;
+  color: white;
+  border-radius: 50%;
+  min-height: 40px;
+  min-width: 40px;
+  margin: 0.5em;
+  margin-right: 1em;
+}
+
+.todo__item__controls {
+  display: flex;
+  align-items: center;
+}
+
+.todo__item__controls button {
+  margin: 0.5em;
+}
+
+.contact {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
